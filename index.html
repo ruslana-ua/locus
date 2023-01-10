@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-	<title>Polar</title>
+	<title>Locus</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230110174748">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220413215739">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,758 +15,99 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<div class="header__container">
-				<div class="header__body">
-					<a href="" class="header__logo animate__animated animate__fadeInDown">
-						<picture>
-							<source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo">
-						</picture>
-					</a>
-					<div class="header__menu menu">
-						<nav class="menu__body">
-							<ul class="menu__list animate__animated animate__fadeInDown">
-								<li class="menu__item">
-									<a href="#" class="menu__link">Home</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">Product</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">Pricing</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">Testimonials</a>
-								</li>
-								<li class="menu__item">
-									<a href="#" class="menu__link">Contact Us</a>
-								</li>
-							</ul>
-						</nav>
+			<div class="header__wrapper">
+				<div class="header__container">
+					<div class="header__body">
+						<a href="" class="header__logo">
+							<div><img src="img/logo.svg" alt="Logo"></div>
+							<p class="header__text">Locus</p>
+						</a>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#home" class="menu__link">Home</a>
+									</li>
+									<li class="menu__item">
+										<a href="#contact" class="menu__link link">Contact</a>
+									</li>
+									<li class="menu__item">
+										<a href="#location" class="menu__link">Location</a>
+									</li>
+									<li class="menu__item">
+										<a href="#about" class="menu__link">About Us</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="header__button-body">
+							<button type="submit" class="header__button btn">Sign Up</button>
+						</div>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
 					</div>
-					<div class="header__button-body animate__animated animate__fadeInDown">
-						<button type="submit" class="header__button btn">Buy Now</button>
-					</div>
-					<button type="button" class="menu__icon icon-menu"><span></span></button>
 				</div>
 			</div>
 		</header>
 		<main class="page">
-			<section class="page__main main-page">
+			<section id="home" class="page__main main-page">
 				<div class="main-page__container">
 					<div class="main-page__body">
-						<div class="main-page__content content-page animate__animated animate__fadeInLeft">
-							<p class="content-page__label">Sweet fun, full of milk.</p>
-							<h1 class="content-page__title">Feel inside cold with our delicious <span>ice-cream.</span>
+
+						<div class="main-page__content content-page">
+							<h1 class="content-page__title">Get the inspiration
+								of interior design
+								here
 							</h1>
-							<p class="content-page__text">Some food has looked so awful that it's looked like something that
-								the dog's brought home, yet after one mouthful I've been left eating my thoughts, my words.</p>
+							<p class="content-page__text">architecture not only about engineering, it even
+								lands to art and aesthetics. With us, you will get
+								a residentical design with an extraordinary touch
+								of art.</p>
 							<div class="content-page__button-body">
-								<button type="submit" class="content-page__button btn">Buy Now</button>
+								<button type="submit" class="content-page__button btn">Let’s go</button>
 							</div>
 						</div>
-						<div class="main-page__image animate__animated animate__fadeIn">
+						<div class="main-page__image">
 							<picture>
-								<source srcset="img/main-image.webp" type="image/webp"><img src="img/main-image.png" alt="Header image">
+								<source srcset="img/main-image.webp" type="image/webp"><img src="img/main-image.png"
+									alt="Header image">
 							</picture>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="page__advantage-block block-advantage">
-				<div class="block-advantage__container">
-					<div class="block-advantage__body animate__animated">
-						<div class="block-advantage__column">
-							<div class="block-advantage__image"><img src="img/advantage/advantage_001.svg" alt="Free Shipping">
-							</div>
-							<h4 class="block-advantage__title">
-								Free Shipping
-							</h4>
-							<p class="block-advantage__text">Last Chance! Free shipping on all orders ends today.</p>
-						</div>
-						<div class="block-advantage__column">
-							<div class="block-advantage__image"><img src="img/advantage/advantage_002.svg" alt="Quick Packaging">
-							</div>
-							<h4 class="block-advantage__title">
-								Quick Packaging
-							</h4>
-							<p class="block-advantage__text">Last Chance! Free shipping on all orders ends today.</p>
-						</div>
-						<div class="block-advantage__column">
-							<div class="block-advantage__image"><img src="img/advantage/advantage_003.svg" alt="100% Money Back">
-							</div>
-							<h4 class="block-advantage__title">
-								100% Money Back
-							</h4>
-							<p class="block-advantage__text">Last Chance! Free shipping on all orders ends today.</p>
-						</div>
-						<div class="block-advantage__column">
-							<div class="block-advantage__image"><img src="img/advantage/advantage_004.svg" alt="Fast Delivery">
-							</div>
-							<h4 class="block-advantage__title">
-								Fast Delivery
-							</h4>
-							<p class="block-advantage__text">Last Chance! Free shipping on all orders ends today.</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="page__details-block block-details">
-				<div class="block-details__container">
-					<div class="block-details__body animate__animated">
-						<div class="block-details__content content-details">
-							<h2 class="content-details__title">Brown Sugar<br />Oatmea
-							</h2>
-							<p class="content-details__text">Together with McDonald’s, Burger King has grown to become
-								synonymous with burgers in the US.Together with McDonald’s, Burger King has grown to become
-								synonymous.</p>
-							<div class="content-details__button-body">
-								<button type="submit" class="content-details__button btn">See Details</button>
-							</div>
-						</div>
-						<div class="content-details__image">
-							<picture>
-								<source srcset="img/image_001.webp" type="image/webp"><img src="img/image_001.png" alt="Image">
-							</picture>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="page__product-block block-product">
-				<div class="block-product__container">
-					<div class="block-product__body body-product animate__animated">
-						<h2 class="body-product__title">
-							Our Product
+			<section class="page__video video-page">
+				<div class="video-page__container">
+					<div class="video-page__content">
+						<h2 class="video-page__title">
+							How it works
 						</h2>
-						<div data-tabs class="body-product__tabs tabs-product">
-							<nav data-tabs-titles class="tabs-product__navigation">
-								<button type="button" class="tabs-product__title _tab-active">ICE CREAM</button>
-								<button type="button" class="tabs-product__title">CAYENNE CHOCOLATE</button>
-								<button type="button" class="tabs-product__title">CAKE BATTER</button>
-								<button type="button" class="tabs-product__title">CANDY CANE</button>
-								<button type="button" class="tabs-product__title">PLATTERS</button>
-								<button type="button" class="tabs-product__title">DESSERT</button>
-							</nav>
-							<div data-tabs-body class="tabs-product__content">
-								<div class="tabs-product__body">
-									<div class="wrapper-product">
-										<div class="wrapper-product__row animate__animated">
-											<div class="wrapper-product__image">
-												<picture>
-													<source srcset="img/products/products_001.webp" type="image/webp"><img
-														src="img/products/products_001.jpg" alt="">
-												</picture>
-											</div>
-											<div class="wrapper-product__content">
-												<h3 class="wrapper-product__title">
-													Brown bread
-												</h3>
-												<p class="wrapper-product__text">
-													Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-													in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-													scene.
-												</p>
-												<div class="wrapper-product__price">
-													<div class="wrapper-product__new-price">$19.55</div>
-													<div class="wrapper-product__old-price">$22.55</div>
-												</div>
-												<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-											</div>
-										</div>
-										<div class="wrapper-product__row right-row animate__animated">
-											<div class="wrapper-product__content right">
-												<h3 class="wrapper-product__title">
-													Cayenne chocolate
-												</h3>
-												<p class="wrapper-product__text right">
-													Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-													in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-													scene.
-												</p>
-												<div class="wrapper-product__price right">
-													<div class="wrapper-product__new-price">$19.55</div>
-													<div class="wrapper-product__old-price">$22.55</div>
-												</div>
-												<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-											</div>
-											<div class="wrapper-product__image">
-												<picture>
-													<source srcset="img/products/products_002.webp" type="image/webp"><img
-														src="img/products/products_002.jpg" alt="">
-												</picture>
-											</div>
-										</div>
-										<div class="wrapper-product__row animate__animated">
-											<div class="wrapper-product__image">
-												<picture>
-													<source srcset="img/products/products_003.webp" type="image/webp"><img
-														src="img/products/products_003.jpg" alt="">
-												</picture>
-											</div>
-											<div class="wrapper-product__content">
-												<h3 class="wrapper-product__title">
-													Sweet corn
-												</h3>
-												<p class="wrapper-product__text">
-													Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-													in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-													scene.
-												</p>
-												<div class="wrapper-product__price">
-													<div class="wrapper-product__new-price">$19.55</div>
-													<div class="wrapper-product__old-price">$22.55</div>
-												</div>
-												<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-											</div>
-										</div>
-										<div class="wrapper-product__row right-row animate__animated">
-											<div class="wrapper-product__content right">
-												<h3 class="wrapper-product__title">
-													Cayenne chocolate
-												</h3>
-												<p class="wrapper-product__text right">
-													Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-													in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-													scene.
-												</p>
-												<div class="wrapper-product__price right">
-													<div class="wrapper-product__new-price">$19.55</div>
-													<div class="wrapper-product__old-price">$22.55</div>
-												</div>
-												<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-											</div>
-											<div class="wrapper-product__image">
-												<picture>
-													<source srcset="img/products/products_004.webp" type="image/webp"><img
-														src="img/products/products_004.jpg" alt="">
-												</picture>
-											</div>
-										</div>
-									</div>
+						<p class="video-page__text">
+							Spice up your space even simpler
+							than you think
+						</p>
+					</div>
+					<div class="video-page__wrappers">
+						<div class="video-page__youtube video-page__youtube_overlay">
+							<div data-video="pLTAc2HyXCM" id="video-youtube__content" class="video-youtube__content"></div>
+							<div class="video-page__body video-body">
+								<div class="video-body__image">
+									<picture>
+										<source srcset="img/video-image.webp" type="image/webp"><img src="img/video-image.png"
+											alt="video image">
+									</picture>
 								</div>
-								<div class="tabs-product__body">
-									<div class="wrapper-product__row animate__animated">
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_003.webp" type="image/webp"><img
-													src="img/products/products_003.jpg" alt="">
-											</picture>
-										</div>
-										<div class="wrapper-product__content">
-											<h3 class="wrapper-product__title">
-												Sweet corn
-											</h3>
-											<p class="wrapper-product__text">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-									</div>
-									<div class="wrapper-product__row right-row animate__animated">
-										<div class="wrapper-product__content right">
-											<h3 class="wrapper-product__title">
-												Cayenne chocolate
-											</h3>
-											<p class="wrapper-product__text right">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price right">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_002.webp" type="image/webp"><img
-													src="img/products/products_002.jpg" alt="">
-											</picture>
-										</div>
-									</div>
-									<div class="wrapper-product__row animate__animated">
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_001.webp" type="image/webp"><img
-													src="img/products/products_001.jpg" alt="">
-											</picture>
-										</div>
-										<div class="wrapper-product__content">
-											<h3 class="wrapper-product__title">
-												Brown bread
-											</h3>
-											<p class="wrapper-product__text">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-									</div>
-								</div>
-								<div class="tabs-product__body">
-									<div class="wrapper-product__row animate__animated">
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_001.webp" type="image/webp"><img
-													src="img/products/products_001.jpg" alt="">
-											</picture>
-										</div>
-										<div class="wrapper-product__content">
-											<h3 class="wrapper-product__title">
-												Brown bread
-											</h3>
-											<p class="wrapper-product__text">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-									</div>
-									<div class="wrapper-product__row right-row animate__animated">
-										<div class="wrapper-product__content right">
-											<h3 class="wrapper-product__title">
-												Cayenne chocolate
-											</h3>
-											<p class="wrapper-product__text right">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price right">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_002.webp" type="image/webp"><img
-													src="img/products/products_002.jpg" alt="">
-											</picture>
-										</div>
-									</div>
-									<div class="wrapper-product__row animate__animated">
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_003.webp" type="image/webp"><img
-													src="img/products/products_003.jpg" alt="">
-											</picture>
-										</div>
-										<div class="wrapper-product__content">
-											<h3 class="wrapper-product__title">
-												Sweet corn
-											</h3>
-											<p class="wrapper-product__text">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-									</div>
-									<div class="wrapper-product__row right-row animate__animated">
-										<div class="wrapper-product__content right">
-											<h3 class="wrapper-product__title">
-												Cayenne chocolate
-											</h3>
-											<p class="wrapper-product__text right">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price right">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_002.webp" type="image/webp"><img
-													src="img/products/products_002.jpg" alt="">
-											</picture>
-										</div>
-									</div>
-									<div class="wrapper-product__row animate__animated">
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_003.webp" type="image/webp"><img
-													src="img/products/products_003.jpg" alt="">
-											</picture>
-										</div>
-										<div class="wrapper-product__content">
-											<h3 class="wrapper-product__title">
-												Sweet corn
-											</h3>
-											<p class="wrapper-product__text">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-									</div>
-								</div>
-								<div class="tabs-product__body">
-									<div class="wrapper-product">
-										<div class="wrapper-product__row animate__animated">
-											<div class="wrapper-product__image">
-												<picture>
-													<source srcset="img/products/products_001.webp" type="image/webp"><img
-														src="img/products/products_001.jpg" alt="">
-												</picture>
-											</div>
-											<div class="wrapper-product__content">
-												<h3 class="wrapper-product__title">
-													Brown bread
-												</h3>
-												<p class="wrapper-product__text">
-													Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-													in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-													scene.
-												</p>
-												<div class="wrapper-product__price">
-													<div class="wrapper-product__new-price">$19.55</div>
-													<div class="wrapper-product__old-price">$22.55</div>
-												</div>
-												<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-											</div>
-										</div>
-										<div class="wrapper-product__row right-row animate__animated">
-											<div class="wrapper-product__content right">
-												<h3 class="wrapper-product__title">
-													Cayenne chocolate
-												</h3>
-												<p class="wrapper-product__text right">
-													Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-													in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-													scene.
-												</p>
-												<div class="wrapper-product__price right">
-													<div class="wrapper-product__new-price">$19.55</div>
-													<div class="wrapper-product__old-price">$22.55</div>
-												</div>
-												<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-											</div>
-											<div class="wrapper-product__image">
-												<picture>
-													<source srcset="img/products/products_002.webp" type="image/webp"><img
-														src="img/products/products_002.jpg" alt="">
-												</picture>
-											</div>
-										</div>
-										<div class="wrapper-product__row animate__animated">
-											<div class="wrapper-product__image">
-												<picture>
-													<source srcset="img/products/products_003.webp" type="image/webp"><img
-														src="img/products/products_003.jpg" alt="">
-												</picture>
-											</div>
-											<div class="wrapper-product__content">
-												<h3 class="wrapper-product__title">
-													Sweet corn
-												</h3>
-												<p class="wrapper-product__text">
-													Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-													in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-													scene.
-												</p>
-												<div class="wrapper-product__price">
-													<div class="wrapper-product__new-price">$19.55</div>
-													<div class="wrapper-product__old-price">$22.55</div>
-												</div>
-												<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="tabs-product__body">
-									<div class="wrapper-product__row animate__animated">
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_003.webp" type="image/webp"><img
-													src="img/products/products_003.jpg" alt="">
-											</picture>
-										</div>
-										<div class="wrapper-product__content">
-											<h3 class="wrapper-product__title">
-												Sweet corn
-											</h3>
-											<p class="wrapper-product__text">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-									</div>
-									<div class="wrapper-product__row right-row animate__animated">
-										<div class="wrapper-product__content right">
-											<h3 class="wrapper-product__title">
-												Cayenne chocolate
-											</h3>
-											<p class="wrapper-product__text right">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price right">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_002.webp" type="image/webp"><img
-													src="img/products/products_002.jpg" alt="">
-											</picture>
-										</div>
-									</div>
-									<div class="wrapper-product__row animate__animated">
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_001.webp" type="image/webp"><img
-													src="img/products/products_001.jpg" alt="">
-											</picture>
-										</div>
-										<div class="wrapper-product__content">
-											<h3 class="wrapper-product__title">
-												Brown bread
-											</h3>
-											<p class="wrapper-product__text">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-									</div>
-								</div>
-								<div class="tabs-product__body">
-									<div class="wrapper-product__row animate__animated">
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_001.webp" type="image/webp"><img
-													src="img/products/products_001.jpg" alt="">
-											</picture>
-										</div>
-										<div class="wrapper-product__content">
-											<h3 class="wrapper-product__title">
-												Brown bread
-											</h3>
-											<p class="wrapper-product__text">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-									</div>
-									<div class="wrapper-product__row right-row animate__animated">
-										<div class="wrapper-product__content right">
-											<h3 class="wrapper-product__title">
-												Cayenne chocolate
-											</h3>
-											<p class="wrapper-product__text right">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price right">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_002.webp" type="image/webp"><img
-													src="img/products/products_002.jpg" alt="">
-											</picture>
-										</div>
-									</div>
-									<div class="wrapper-product__row animate__animated">
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_003.webp" type="image/webp"><img
-													src="img/products/products_003.jpg" alt="">
-											</picture>
-										</div>
-										<div class="wrapper-product__content">
-											<h3 class="wrapper-product__title">
-												Sweet corn
-											</h3>
-											<p class="wrapper-product__text">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-									</div>
-									<div class="wrapper-product__row right-row animate__animated">
-										<div class="wrapper-product__content right">
-											<h3 class="wrapper-product__title">
-												Cayenne chocolate
-											</h3>
-											<p class="wrapper-product__text right">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price right">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_002.webp" type="image/webp"><img
-													src="img/products/products_002.jpg" alt="">
-											</picture>
-										</div>
-									</div>
-									<div class="wrapper-product__row animate__animated">
-										<div class="wrapper-product__image">
-											<picture>
-												<source srcset="img/products/products_003.webp" type="image/webp"><img
-													src="img/products/products_003.jpg" alt="">
-											</picture>
-										</div>
-										<div class="wrapper-product__content">
-											<h3 class="wrapper-product__title">
-												Sweet corn
-											</h3>
-											<p class="wrapper-product__text">
-												Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer
-												in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food
-												scene.
-											</p>
-											<div class="wrapper-product__price">
-												<div class="wrapper-product__new-price">$19.55</div>
-												<div class="wrapper-product__old-price">$22.55</div>
-											</div>
-											<button type="submit" class="wrapper-product__button btn">Buy Now</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="wrapper-reviews__slider swiper animate__animated">
-								<div class="wrapper-reviews__wrapper swiper-wrapper">
-									<div class="wrapper-reviews__slide swiper-slide">
-										<div class="wrapper-reviews">
-											<div class="wrapper-reviews__avatar">
-												<picture>
-													<source srcset="img/avatars/avatar_01.webp" type="image/webp"><img
-														src="img/avatars/avatar_01.png" alt="avatar">
-												</picture>
-											</div>
-											<div class="wrapper-reviews__items">
-												<h3 class="wrapper-reviews__title">
-													Adele A. McNeill
-												</h3>
-												<p class="wrapper-reviews__label">
-													AMIRICAN
-												</p>
-											</div>
-										</div>
-										<p class="wrapper-reviews__text">
-											Thanks a lot for the prompt service. Really appreciate. Excellence taste in Every
-											Bite.Add a joy of best Taste. Foodie Moments.
+								<div class="video-body__content">
+									<button type="submit" class="video-body__button">
+										<span></span>
+									</button>
+									<div class="video-body__wrapper">
+										<p class="video-body__text">
+											We provide design and build
+											for commercial building,
+											interior and furniture to improve
+											the better life.
 										</p>
-									</div>
-									<div class="wrapper-reviews__slide swiper-slide">
-										<div class="wrapper-reviews">
-											<div class="wrapper-reviews__avatar">
-												<picture>
-													<source srcset="img/avatars/avatar_02.webp" type="image/webp"><img
-														src="img/avatars/avatar_02.png" alt="avatar">
-												</picture>
-											</div>
-											<div class="wrapper-reviews__items">
-												<h3 class="wrapper-reviews__title">
-													Adele A. McNeill
-												</h3>
-												<p class="wrapper-reviews__label">
-													AMIRICAN
-												</p>
-											</div>
-										</div>
-										<p class="wrapper-reviews__text">
-											Thanks a lot for the prompt service. Really appreciate. Excellence taste
-											in Every Bite.Add a joy of best Taste. Foodie Moments.
-										</p>
-									</div>
-									<div class="wrapper-reviews__slide swiper-slide">
-										<div class="wrapper-reviews">
-											<div class="wrapper-reviews__avatar">
-												<picture>
-													<source srcset="img/avatars/avatar_03.webp" type="image/webp"><img
-														src="img/avatars/avatar_03.png" alt="avatar">
-												</picture>
-											</div>
-											<div class="wrapper-reviews__items">
-												<h3 class="wrapper-reviews__title">
-													Adele A. McNeill
-												</h3>
-												<p class="wrapper-reviews__label">
-													AMIRICAN
-												</p>
-											</div>
-										</div>
-										<p class="wrapper-reviews__text">
-											Thanks a lot for the prompt service. Really appreciate. Excellence taste
-											in Every Bite.Add a joy of best Taste. Foodie Moments.
-										</p>
-									</div>
-								</div>
-								<div class="wrapper-reviews__pagination"></div>
-								<div class="wrapper-reviews__controll controll-wrapper-reviews">
-									<div class="controll-wrapper-reviews__arrows controll-arrows">
-										<button type="button" class="controll-arrow controll-arrow_prev"></button>
-										<button type="button" class="controll-arrow controll-arrow_next"></button>
+										<a href="#" class="video-body__link">SEE VIDEO</a>
 									</div>
 								</div>
 							</div>
@@ -774,141 +115,192 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__app-block block-app">
-				<div class="block-app__container">
-					<div class="block-app__body animate__animated">
-						<div class="block-app__image">
+			<section class="page__mission mission-page">
+				<div class="mission-page__container">
+					<div class="mission-page__body">
+						<div class="mission-page__image">
 							<picture>
-								<source srcset="img/app/app_001.webp" type="image/webp"><img src="img/app/app_001.png" alt="Image">
+								<source srcset="img/mission-image.webp" type="image/webp"><img src="img/mission-image.png"
+									alt="mission image">
 							</picture>
 						</div>
-						<div class="block-app__content content-app">
-							<h2 class="content-app__title">Simple Way To Order Your Food
+						<div class="mission-page__content">
+							<h3 class="mission-page__title">Our mission is to
+								deliver aesthetic visual
+								for your home
+							</h3>
+							<p class="mission-page__text">By applying bacis psychology principles,
+								we are going to explain how perception
+								works and how we can use this understanding
+								to maximise the space that we occupy in
+								our homes.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="location" class="page__project project-page">
+				<div class="project-page__container">
+					<div class="project-page__body">
+						<div class="project-page__content">
+							<h2 class="project-page__tittle">
+								Our project
 							</h2>
-							<p class="content-app__text">Some food has looked so awful that it's looked like something that the
-								dog's brought home, yet after one mouthful I've been left eating my thoughts.</p>
-							<div class="content-app__items">
-								<div class="content-app__body">
-									<div class="content-app__icon"><img src="img/app/icon_01.svg" alt="Icon"></div>
-									<div class="content-app__label">Select Your Food</div>
-								</div>
-								<div class="content-app__body">
-									<div class="content-app__icon"><img src="img/app/icon_02.svg" alt="Icon"></div>
-									<div class="content-app__label">Add To Cart</div>
-								</div>
-								<div class="content-app__body">
-									<div class="content-app__icon"><img src="img/app/icon_03.svg" alt="Icon"></div>
-									<div class="content-app__label">Order Your Food</div>
+							<p class="project-page__text">
+								Introducing our first official project
+							</p>
+						</div>
+						<div class="project-page__wrapper project-wrapper">
+							<div class="project-wrapper__column">
+								<h3 class="project-wrapper__title">
+									Project Livingroom
+								</h3>
+								<p class="project-wrapper__text">
+									A simple guide to create the perfect livingro-
+									om for . Night Watc works beautifully in a wi-
+									de gamut of arrangements.
+								</p>
+								<div class="project-wrapper__image">
+									<picture>
+										<source srcset="img/project_01.webp" type="image/webp"><img src="img/project_01.png"
+											alt="project">
+									</picture>
 								</div>
 							</div>
-							<div class="content-app__web">
-								<a href="" class="content-app__web-gp">
+							<div class="project-wrapper__column">
+								<div class="project-wrapper__image-circle">
 									<picture>
-										<source srcset="img/app/app_002.webp" type="image/webp"><img src="img/app/app_002.png" alt="WebApp">
+										<source srcset="img/project_02.webp" type="image/webp"><img src="img/project_02.png"
+											alt="project">
 									</picture>
-								</a>
-								<a href="" class="content-app__web-ap">
+								</div>
+								<h3 class="project-wrapper__title">
+									Project workspace
+								</h3>
+								<p class="project-wrapper__text-two">
+									A simple guide to create the perfect livingro-
+									om for . Night Watc works beautifully in a wi-
+									de gamut of arrangements.
+								</p>
+							</div>
+							<div class="project-wrapper__column">
+								<h3 class="project-wrapper__title">
+									Library
+								</h3>
+								<p class="project-wrapper__text">
+									A simple guide to create the perfect livingro-
+									om for . Night Watc works beautifully in a wi-
+									de gamut of arrangements.
+								</p>
+								<div class="project-wrapper__image">
 									<picture>
-										<source srcset="img/app/app_003.webp" type="image/webp"><img src="img/app/app_003.png" alt="WebApp">
+										<source srcset="img/project_03.webp" type="image/webp"><img src="img/project_03.png"
+											alt="project">
 									</picture>
-								</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="page__question-block block-question">
-				<div class="block-question__container">
-					<div class="block-question__body animate__animated">
-						<h2 class="block-question__title">
-							Have Question in Mind?<br />Let us help you
-						</h2>
-						<form action="#" class="block-question__form form-question">
-							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Enter your question"
-								class="form-question__input">
-							<button type="submit" class="form-question__button btn">Send</button>
-						</form>
+			<section id="about" class="page__testimonial testimonial-page">
+				<div class="testimonial-page__container">
+					<h2 class="testimonial-page__title">
+						Testimonial
+					</h2>
+					<div class="testimonial-page__brands testimonial-brands">
+						<div class="testimonial-brands__image">
+							<picture>
+								<source srcset="img/brand_01.webp" type="image/webp"><img src="img/brand_01.png" alt="brand">
+							</picture>
+						</div>
+						<div class="testimonial-brands__image">
+							<picture>
+								<source srcset="img/brand_02.webp" type="image/webp"><img src="img/brand_02.png" alt="brand">
+							</picture>
+						</div>
+						<div class="testimonial-brands__image">
+							<picture>
+								<source srcset="img/brand_03.webp" type="image/webp"><img src="img/brand_03.png" alt="brand">
+							</picture>
+						</div>
+						<div class="testimonial-brands__image">
+							<picture>
+								<source srcset="img/brand_04.webp" type="image/webp"><img src="img/brand_04.png" alt="brand">
+							</picture>
+						</div>
+					</div>
+					<div class="testimonial-page__body testimonial-body">
+						<div class="testimonial-body__image">
+							<picture>
+								<source srcset="img/testimonial-image.webp" type="image/webp"><img
+									src="img/testimonial-image.png" alt="testimonial image">
+							</picture>
+						</div>
+						<div class="testimonial-body__content">
+							<div class="testimonial-body__wrapper">
+								<div class="testimonial-body__items">
+									<h2 class="testimonial-body__text">
+										105<br /><span>project<br />done</span>
+									</h2>
+									<h2 class="testimonial-body__text">
+										12<br /><span>years of<br />experience</span>
+									</h2>
+									<h2 class="testimonial-body__text">
+										10+<br /><span>big company<br />partnership</span>
+									</h2>
+								</div>
+								<div class="testimonial-body__block">
+									<p class="testimonial-body__review">
+										"Not able to tell you how happy I am with interior design.
+										Interior design has completely surpassed our expectations.
+										Interior design saved my business. Interior design is worth
+										much more than I paid."
+									</p>
+									<p class="testimonial-body__name">
+										- Roscoe
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact" class="page__contacts contacts-page">
+				<div class="contacts-page__container">
+					<div class="contacts-page__body">
+						<div class="contacts-page__content">
+							<h2 class="contacts-page__title">
+								Contact Us
+							</h2>
+							<p class="contacts-page__text">
+								Have any questions? Want help
+								before getting started?
+							</p>
+						</div>
+						<div class="contacts-page__form contacts-form">
+							<form action="#" class="contacts-form__body">
+								<input class="contacts-form__input" name="name" required="" type="text" placeholder="Full name">
+								<input class="contacts-form__input" name="email" required="" type="email"
+									placeholder="Email address">
+								<textarea class="contacts-form__input" name="comment" id="" cols="30" rows="1"
+									placeholder="Description"></textarea>
+								<div class="contacts-form__btn-body">
+									<button class="contacts-form__btn btn">Send now</button>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
-				<div class="footer__body animate__animated">
-					<div class="footer__main">
-						<a href="" class="footer__logo">
-							<picture>
-								<source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo">
-							</picture>
-						</a>
-						<p class="footer__text">Some food has looked so awful that it's looked like something that the dog's brought
-							home.</p>
-						<div class="footer__label">Follow Us</div>
-						<div class="footer__social social-footer">
-							<a href="" class="social-footer__item">
-								<picture>
-									<source srcset="img/social/fb.webp" type="image/webp"><img src="img/social/fb.png" alt="">
-								</picture>
-							</a>
-							<a href="" class="social-footer__item">
-								<picture>
-									<source srcset="img/social/tw.webp" type="image/webp"><img src="img/social/tw.png" alt="">
-								</picture>
-							</a>
-							<a href="" class="social-footer__item">
-								<picture>
-									<source srcset="img/social/ig.webp" type="image/webp"><img src="img/social/ig.png" alt="">
-								</picture>
-							</a>
-							<a href="" class="social-footer__item">
-								<picture>
-									<source srcset="img/social/li.webp" type="image/webp"><img src="img/social/li.png" alt="">
-								</picture>
-							</a>
-						</div>
-					</div>
-					<div class="footer__menu menu-footer">
-						<div class="menu-footer__column">
-							<ul class="menu-footer__list">
-								<li class="menu-footer__item"><a href="" class="menu-footer__link">Home</a></li>
-								<li class="menu-footer__item"><a href="" class="menu-footer__link">Product</a></li>
-								<li class="menu-footer__item"><a href="" class="menu-footer__link">Blog</a></li>
-								<li class="menu-footer__item"><a href="" class="menu-footer__link">Pricing</a></li>
-								<li class="menu-footer__item"><a href="" class="menu-footer__link">Testimonials</a></li>
-								<li class="menu-footer__item"><a href="" class="menu-footer__link">Contact Us</a></li>
-							</ul>
-						</div>
-						<div class="menu-footer__column">
-							<ul class="menu-footer__list">
-								<li class="menu-footer__item"><a href="" class="menu-footer__link">Delivery Information</a></li>
-								<li class="menu-footer__item"><a href="" class="menu-footer__link">Privacy Policy</a></li>
-								<li class="menu-footer__item"><a href="" class="menu-footer__link">Terms & Condition</a></li>
-								<li class="menu-footer__item"><a href="" class="menu-footer__link">Search Terms</a></li>
-								<li class="menu-footer__item"><a href="" class="menu-footer__link">Order & Return</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="footer__subscribe subscribe">
-						<div class="subscribe__title">Newsletter</div>
-						<form data-message="subscribe" data-test="" action="#" class="subscribe__form">
-							<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Your Email"
-								class="subscribe__input">
-							<button type="submit" class="subscribe__button btn">Subscribe</button>
-						</form>
-						<div class="subscribe__pay">
-							<div class="subscribe__item"><img src="img/pay/pay_01.svg" alt="Pay"></div>
-							<div class="subscribe__item"><img src="img/pay/pay_02.svg" alt="Pay"></div>
-							<div class="subscribe__item"><img src="img/pay/pay_03.svg" alt="Pay"></div>
-						</div>
-					</div>
-				</div>
 			</div>
 		</footer>
 		<div class="arrow-up"></div>
 	</div>
-	<script src="js/app.min.js?_v=20230110174748"></script>
-	<script src="js/jquery-3.6.0.min.js?_v=20230110174748"></script>
-	<script src="js/main.js?_v=20230110174748"></script>
+	<script src="js/app.min.js?_v=20220413215739"></script>
+	<script src="js/video.js?_v=20220413215739"></script>
 </body>
 
 </html>
